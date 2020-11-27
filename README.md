@@ -37,5 +37,5 @@ https://xxxxxx.execute-api.us-east-1.amazonaws.com/dev/cancelSchedule
 ```
 GET 
 
-https://xxxxx.execute-api.us-east-1.amazonaws.com/dev/listSchedules?type=default&&limit=10
+https://xxxxx.execute-api.us-east-1.amazonaws.com/dev/listSchedules?type=default&limit=10
 ```
