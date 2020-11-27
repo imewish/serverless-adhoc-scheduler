@@ -2,6 +2,8 @@ const AWS = require('aws-sdk')
 const ddb = new AWS.DynamoDB.DocumentClient()
 const { response } = require('../utils/response')
 
+/* Lists scheduled events*/
+
 module.exports.handler = async event => {
   console.log(JSON.stringify(event))
   var params = {

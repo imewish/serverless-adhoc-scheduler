@@ -5,6 +5,8 @@ const ddb = new AWS.DynamoDB.DocumentClient()
 
 const { response } = require('../utils/response')
 
+/* Cancel a scheduled event */
+
 module.exports.handler = async event => {
   console.log(JSON.stringify(event))
   const { type, createdAt } = JSON.parse(event.body)
