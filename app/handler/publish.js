@@ -32,7 +32,6 @@ module.exports.handler = async event => {
       input: JSON.stringify(unmarshaledData)
     }).promise()
     console.log(result)
-    //executionArn: 'arn:aws:states:us-east-1:751741319928:execution:adHocSchedulerDev:074951d3-427a-42c1-8e35-52d9eeaf9852',
   } catch (error) {
     console.error(error)
   }

@@ -2,7 +2,7 @@ service: scheduler
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs14.x
   iamRoleStatements:
     - Effect: 'Allow'
       Action:
